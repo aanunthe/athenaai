@@ -124,5 +124,5 @@ Submit a link to your github repo with
 
 ## Notes
 
-* Underwriting policy pdf is available here 
+* Underwriting policy pdf is available [here](loan_policy.pdf)
 * Most LLMs have free api keys available. Ex) for gemini - https://aistudio.google.com/api-keys
