@@ -8,14 +8,6 @@ Build an AI agent that:
 2. **Takes loan application data** as input
 3. **Outputs an approval decision** with reasoning
 
-You'll receive a PDF with specific lending criteria (income thresholds, debt ratios, credit score requirements, etc.). Your agent must parse these rules and apply them to loan applications.
-
-**Why this matters at Athena:**
-
-Real-world lending policies are complex documents. Your agent needs to extract the right information and apply it correctly - just like production AI systems that process regulatory documents, contracts, and financial policies.
-
----
-
 ## Requirements
 
 ### Input 1: Policy PDF
@@ -113,16 +105,4 @@ Credit Score 650-719: Medium risk (approve if DTI < 30%)
 ---
 
 ## Deliverables
-
-Submit a link to your github repo with
-1. **Source code** 
-2. **README**
-   - What tools you used
-   - What your thought process/architecture was
-   - Potential future improvements and challenges
-   - How to run your code
-
-## Notes
-
-* Underwriting policy pdf is available [here](loan_policy.pdf)
-* Most LLMs have free api keys available. Ex) for gemini - https://aistudio.google.com/api-keys
+* How to run code: python underwrite.py application.json 
